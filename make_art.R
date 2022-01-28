@@ -1,3 +1,6 @@
+install.packages("tidyverse")
+library(tidyverse)
+
 make_art <- function(year_of_birth, N = 20, color = "all") {
   set.seed(year_of_birth)
   if (color == "all") {
@@ -26,12 +29,3 @@ make_art <- function(year_of_birth, N = 20, color = "all") {
     geom_segment(color=colors, size=size) +
     theme_void()
 }
-
-
-
-
-
-
-
-
-
