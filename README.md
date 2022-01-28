@@ -1,8 +1,8 @@
 # Function make_art 
-This is a function that creates random art, based on color palettes from nature 
+This is a function that creates random art, based on color palettes from nature. 
 
 # Usage 
-The package ggplot2 needs to be installed before running this function. The function can be used like this: make_art(year_of_birth, N, color)
+The package ggplot2 needs to be installed before running this function. The function can be used like this: make_art(year_of_birth, N, color).
 
 # Arguments
 year_of_birth = set the seed
